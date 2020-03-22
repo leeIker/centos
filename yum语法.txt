@@ -1,0 +1,12 @@
+yum是傻瓜式的命令
+yum list 展示已经安装的软件
+yum install 软件名  安装文件 可以添加选项-y
+							 直接安装不询问
+yum update  软件名   和install一样 也有-y选项
+		如果是直接不输入软件名，会更新所有软件
+
+yum remove 软件名    和install一样   也有-y
+
+
+
+查看软件是否安装  rpm -galgrep  软件名
